@@ -1,0 +1,24 @@
+.profile-card{
+    border: 2px solid darkgray;
+    width: 25rem;
+    margin: 1rem 35rem;
+    padding: 1rem;
+}
+
+.user-details{
+    display: flex;
+}
+
+.logout-btn{
+    padding: 0.5rem;
+    font-size: inherit;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: #455b78;
+    border-radius: 5px;
+}
+
+.logout-btn:hover{
+    background: #232f3e;
+}

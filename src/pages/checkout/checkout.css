@@ -1,0 +1,37 @@
+.checkout-top{
+    display: flex;
+    justify-content: center;
+}
+
+.checkout-card{
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+}
+
+.left{
+    display: inline-block;
+}
+.checkout-head{
+    display: flex;
+    justify-content: center;
+}
+
+.checkout-details{
+    border: 1px solid darkgray;
+    width: 25rem;
+    line-height: 0;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.order-btn{
+    padding: 0.5rem;
+    font-size: inherit;
+    cursor: pointer;
+    background: #455b78;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    margin: 1rem 6rem;
+}

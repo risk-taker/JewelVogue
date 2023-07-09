@@ -1,0 +1,40 @@
+.filters-container{
+    position: sticky;
+    top: 4rem;
+    border-right: 2px solid;
+    padding: 2rem 0;
+    border-bottom: 2px solid;
+    height: 100%;
+    width: 15rem;
+}
+.aside-filters{
+    margin: 0 15px;
+}
+.aside-filter-heading{
+    display: inline-block;
+}
+.aside-filter-reset{
+    margin-top: 21px;
+    float: right;
+    padding: 0.2rem 0.5rem;
+    border: none;
+    background: #4b6587;
+    color: white;
+    font-size: inherit;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.filter-range{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 2rem;
+}
+.slider-input{    
+    width: 145px;
+    position: relative;
+    left: 0.8rem;
+    accent-color: #4c6685;
+}
+.label-input{
+    display: block;
+}

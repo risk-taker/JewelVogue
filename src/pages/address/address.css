@@ -1,0 +1,51 @@
+.address-details{
+    border: 2px solid darkgray;
+    margin: 1rem 35rem;
+    width: 30rem;
+    line-height: 1;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.edit-address-btn{
+    color: white;
+    background: #3c516b;
+    padding: 0.5rem 1rem;
+    font-size: inherit;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.edit-address-btn:hover{
+    background: #232f3e;
+}
+
+.delete-address-btn{
+    background: #ec2a2a;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: inherit;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-address-btn:hover{
+    background: #e64848;
+}
+
+.add-address-btn{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background: #232f3e;
+    color: white;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+.add-address-btn:hover{
+    background: #3c516b;
+}

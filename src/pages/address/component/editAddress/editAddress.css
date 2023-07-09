@@ -1,0 +1,65 @@
+.edit-address-container{
+    position: fixed;
+    z-index: 999;
+    background: #342e2ebf;
+    right: 0;
+    top: 0rem;
+    height: 100vh;
+    width: 100vw;
+}
+
+.edit-address-card{
+    background-color: #fff;
+    border-radius: 10px;
+    height: fit-content;
+    margin: auto;
+    padding: 1rem 2rem 3rem;
+    text-align: center;
+    width: 30%;
+    margin-top: 3rem;
+}
+
+.edit-address-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+input{
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    outline: none;
+    font-size: inherit;
+}
+
+.save-btn{
+    padding: 0.5rem 1rem;
+    border: 1px solid #232f3e;
+    border-radius: 5px;
+    background: transparent;
+    font-size: inherit;
+    color: #232f3e;
+    cursor: pointer;
+    margin-right: 5rem;
+}
+
+.save-btn:hover{
+    background: #3c516b;
+    color: white;
+    border: 1px solid;
+}
+
+.cancel-btn{
+    padding: 0.5rem 1rem;
+    border: 1px solid red;
+    font-size: inherit;
+    color: red;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cancel-btn:hover{
+    background: #ff7373;
+    border: 1px solid;
+    color: white;
+}

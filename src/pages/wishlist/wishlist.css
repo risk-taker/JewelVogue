@@ -1,0 +1,12 @@
+.wishlist-count{
+    display: flex;
+    justify-content: center;
+}
+
+.wishlist-card-container{
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    grid-gap: 2rem 1rem;
+    justify-content: center;
+}
